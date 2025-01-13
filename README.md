@@ -2,7 +2,7 @@
 Scrape Reddit and Twitter data tags to sql db
 
 #### Data flow design chart
-![alt text](readmeimages/image_chart.png)
+![alt text](images/image_chart.png)
 
 #### Run project
 
@@ -34,13 +34,13 @@ pip install -r requirements.txt
 ```
 python Runner.py
 ```
-![alt text](readmeimages/image_runner.png)
+![alt text](images/image_runner.png)
 
 Expected result: Reddit and Twitter data will be scraped on a 10second scheduled interval. 
 
 *note at present Twitter free tier heavily limits querying to 100 reads per mth. To increase limits would require higher tier Paid API subscription. 
 
 Tables in DB Browser for Sqlite
-![alt text](readmeimages/image.png)
+![alt text](images/image-redacted.png)
 
 resultant sqlite local DB can be found in results folder. Use DB Browser or other sql visualiser tools to browse the DB.
