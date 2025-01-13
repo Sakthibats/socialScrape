@@ -43,4 +43,4 @@ Expected result: Reddit and Twitter data will be scraped on a 10second scheduled
 Tables in DB Browser for Sqlite
 ![alt text](images/image-redacted.png)
 
-resultant sqlite local DB can be found in results folder. Use DB Browser or other sql visualiser tools to browse the DB.
+Sqlite local DB can be found in results folder. Use [DB Browser](https://sqlitebrowser.org/dl/) or other sql visualiser tools to browse DB
