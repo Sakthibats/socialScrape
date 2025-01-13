@@ -6,12 +6,13 @@ Scrape Reddit and Twitter data tags to sql db
 
 #### Run project
 
-Prerequisites:
-	•	Obtain API keys and tokens for Twitter and Reddit:
-	•	Twitter: Create an app via the Twitter Developer Portal and obtain API keys.
-	•	Reddit: Create an app via the Reddit Developer Portal and get client ID and secret.
+##### Prerequisites:
+- Obtain API keys and tokens for Twitter and Reddit:
+- Twitter: Create an app via the [Twitter Developer Portal](https://developer.x.com/en) and obtain API keys.
+- Reddit: Create an app via the [Reddit Developer Portal](https://www.reddit.com/prefs/apps) and get client ID and secret.
 
-- Step 1: Set to python 3.7++
+##### Instructions to replicate
+- Step 1: Set to python 3.7++. use venv
 - Step 2: Create a .env file at root with the following variables created
 
 ```
@@ -35,11 +36,11 @@ python Runner.py
 ```
 ![alt text](readmeimages/image_runner.png)
 
-Expected outlook. Reddit and Twitter data will be scraped on a 10second scheduler interval. 
+Expected result: Reddit and Twitter data will be scraped on a 10second scheduled interval. 
 
-*note at present Twitter free tier heavily limits querying to 100 reads per mth. To expand further would require higher tier Paid API subscription. 
+*note at present Twitter free tier heavily limits querying to 100 reads per mth. To increase limits would require higher tier Paid API subscription. 
 
 Tables in DB Browser for Sqlite
 ![alt text](readmeimages/image.png)
 
-resultant sqlite local db can be found in results folder. Use DB Browser or other sql visualiser tools to browse the DB.
+resultant sqlite local DB can be found in results folder. Use DB Browser or other sql visualiser tools to browse the DB.
