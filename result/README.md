@@ -1,0 +1,1 @@
+# RESULTANT SQLITE DB folder
